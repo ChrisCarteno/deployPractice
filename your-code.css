@@ -1,24 +1,30 @@
 /* Your code here */
-img[alt="nateDog"]{
-
-}
 img[alt="Franny"]{
     width: 150px;
     height: 150px;
-}
-img[alt="Gooner"]{
-
-}
-img[alt="Tank"]{
-
-}
-img[alt="Minerals"]{
-
+    place-self: center;
 }
 img[alt="PeterDayz"]{
     width: 150px;
     height: 150px;
+    place-self: center;
 }
-img[alt="Roach"]{
-
-}
+.gamers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px;
+    justify-items: center;
+    align-items: center;
+  }
+  h1{
+      font-family: 'VT323', monospace;
+      text-align: center;
+      font-size: xx-large;
+      color: green;
+      border: dashed black 4px;
+      margin-left: 100px;
+      padding-left: 100px;
+  }
+  .gamers img{
+      border-radius: 50%;
+  }
