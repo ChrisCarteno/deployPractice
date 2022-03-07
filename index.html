@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Academy CSS Test</title>
+  <style>
+    body {
+      justify-content: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    table {
+      width: 100%
+    }
+
+    fieldset {
+      margin-bottom: 1em
+    }
+
+    footer {
+      font-size: 8px
+    }
+
+    td {
+      width: 50%
+    }
+
+    #problem-2 {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAFWGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgZXhpZjpQaXhlbFhEaW1lbnNpb249IjMwIgogICBleGlmOlBpeGVsWURpbWVuc2lvbj0iMzAiCiAgIGV4aWY6Q29sb3JTcGFjZT0iMSIKICAgdGlmZjpJbWFnZVdpZHRoPSIzMCIKICAgdGlmZjpJbWFnZUxlbmd0aD0iMzAiCiAgIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiCiAgIHRpZmY6WFJlc29sdXRpb249IjcyLjAiCiAgIHRpZmY6WVJlc29sdXRpb249IjcyLjAiCiAgIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiCiAgIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIKICAgeG1wOk1vZGlmeURhdGU9IjIwMjAtMDMtMjdUMDY6MDk6NDEtMDU6MDAiCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMjAtMDMtMjdUMDY6MDk6NDEtMDU6MDAiPgogICA8ZGM6dGl0bGU+CiAgICA8cmRmOkFsdD4KICAgICA8cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPlVudGl0bGVkPC9yZGY6bGk+CiAgICA8L3JkZjpBbHQ+CiAgIDwvZGM6dGl0bGU+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InByb2R1Y2VkIgogICAgICBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZmZpbml0eSBEZXNpZ25lciAoTWFyIDEyIDIwMjApIgogICAgICBzdEV2dDp3aGVuPSIyMDIwLTAzLTI3VDA2OjA5OjQxLTA1OjAwIi8+CiAgICA8L3JkZjpTZXE+CiAgIDwveG1wTU06SGlzdG9yeT4KICA8L3JkZjpEZXNjcmlwdGlvbj4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz6sdiztAAABgmlDQ1BzUkdCIElFQzYxOTY2LTIuMQAAKJF1kctLQkEUhz+1SNIoqEVQCwtrZdEDojZBSlggIWaQ1UZvPgK1y71KSNugrVAQtem1qL+gtkHrICiKIFq1aF3UpuR2rgZG5BnOnG9+M+cwcwas4bSS0esGIJPNaSG/1zUfWXA1PGOjAwd2uqKKrk4EgwFq2scdFjPe9Jm1ap/71xzLcV0Bi114XFG1nPCUcGAtp5q8LdympKLLwqfCHk0uKHxr6rEKv5icrPCXyVo45ANri7Ar+Ytjv1hJaRlheTnuTDqv/NzHfIkznp2bldgt3olOCD9eXEwziY8RBhmTeYQ+huiXFTXyB8r5M6xKriKzSgGNFZKkyOERNS/V4xITosdlpCmY/f/bVz0xPFSp7vRC/ZNhvPVAwxaUiobxeWgYpSOwPcJFtpq/egCj76IXq5p7H5o34OyyqsV24HwT2h/UqBYtSzZxayIBryfQFIHWa2hcrPTsZ5/jewivy1ddwe4e9Mr55qVvJ9hnydoRuVkAAAAJcEhZcwAACxMAAAsTAQCanBgAAABOSURBVEiJY7RY/J+BBuBKFQMTLcyFgFGj0QALGv94DPlmWS5B4Q7NABk1etToUaNHjR41esQbjV43otVvlIChGSA0NJqRR5YmzUkGBgYA5PUHbHxQTZQAAAAASUVORK5CYII=);
+      box-sizing: border-box;
+      display: grid;
+      width: 150px;
+      height: 60px;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    #problem-2a {
+      background-color: #000
+    }
+
+  </style>
+  <link rel="stylesheet" href="./your-code.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <p>
+        <b>INSTRUCTIONS:</b> Read the HTML here and in the browser. Follow the
+        instructions to complete the problems. All of your CSS code must go into
+        <i>your-code.css</i>.
+      </p>
+      <p><strong>Do not modify this file, test.html.</strong></p>
+      <p>
+        Each problem provides an image of what your result should look like.
+        Because of minor image rendering inconsistencies in the browser, these
+        are <em>for reference only</em>. It is ok if there are pixel-sized
+        differences between what you have and the image.
+      </p>
+    </div>
+    <div id="mocha"></div>
+  </header>
+  <main>
+    <fieldset id="p1">
+      <legend>Problem 1</legend>
+      <div>
+        <p>
+          The element with the class "outer-layer-1" contains the already styled
+          elements in this problem.
+        </p>
+        <p>
+          Apply the Flexible Box Model to
+          "outer-layer-1" such that its internal elements are laid out
+          horizontally and are centered vertically.
+        </p>
+      </div>
+      <table border="0">
+        <tr>
+          <td>
+            <img
+              src="data:image/png;base64,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">
+          </td>
+          <td>
+            <div id="problem-1" class="outer-layer-1">
+              <div id="problem-1a" class="box-1" style="width:20px;height:20px;background-color:orange;"></div>
+              <div id="problem-1b" class="box-2" style="width:30px;height:30px;background-color:purple;"></div>
+              <div id="problem-1c" class="box-3" style="width:40px;height:40px;background-color:green;"></div>
+              <div id="problem-1d" class="box-4" style="width:50px;height:50px;background-color:blue;"></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset id="p2">
+      <legend>Problem 2</legend>
+      <div>
+        <p>
+          The black square has the "inner-layer-2" class assigned to it. It
+          lives in a grid of five columns and two rows with a class of
+          "outer-layer-2" assigned to it.
+        </p>
+        <p>
+          Create CSS rules that make the black box cover the entire third
+          column.
+        </p>
+        </td>
+      </div>
+      <table border="0">
+        <tr>
+          <td>
+            <img
+              src="data:image/png;base64,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">
+          </td>
+          <td>
+            <div id="problem-2" class="outer-layer-2">
+              <div id="problem-2a" class="inner-layer-2"></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset id="p3">
+      <legend>Problem 3</legend>
+      <div>
+        <p>
+          This page currently has all text left aligned and is not at all
+          responsive to different screen sizes. 
+        </p>
+        <p>
+          Write a media query that will center all of the text within the
+          <strong>header</strong> of the page for all screens 768px wide or
+          wider. Use the <code>text-align</code> property to center the text. All other text on the page should remain the same.
+        </p>
+        </td>
+      </div>
+    </fieldset>
+
+    <fieldset id="p4">
+      <legend>Problem 4</legend>
+      <div>
+        <p>
+          Imagine you want to read this page on your iPhone, but you only want
+          to see the text, not the <strong>table</strong> elements which include the images.
+        </p>
+        <p>
+          1. Write a media query to change the <code>display</code> property of
+          the <strong>table</strong> elements. All table elements should be
+          displayed when the screen is 600px or wider, and should be NOT be
+          displayed when the screen size is less than 600px wide.
+        </p>
+        <strong>NOTE: Make sure you change the <code>display</code> property,
+        and not a different property, to make the table disappear from view on
+        the narrower screen.</strong>
+        <p>
+          2. You notice that the page looks awkward with the content running
+          into the edge of the viewport. Revise your media query for the narrow
+          screen to add a margin of 5px to the left and right of the <strong>body</strong> element to improve the look of the page.
+        </p>
+        </td>
+      </div>
+    </fieldset>
+
+  </main>
+</body>
+</html>
