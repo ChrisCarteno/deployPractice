@@ -46,13 +46,13 @@ img[alt="nateDog"]{
     align-items: center;
   }
   h1{
-      font-family: 'VT323', monospace;
+      font-family: 'Luckiest Guy', 'VT323', monospace;
       text-align: center;
       font-size: xx-large;
-      color: green;
-      border: dashed black 4px;
-      margin-left: 100px;
-      padding-left: 100px;
+      color: aliceblue;
+      border: dashed white 4px;
+      background-color: black;
+
   }
   .gamers img{
       border-radius: 50%;
@@ -66,4 +66,9 @@ img[alt="nateDog"]{
       padding: 10px;
       align-items: center;
       margin-right: 20px;
+  }
+  #topNav{
+    background-color: black;
+    align-items: center;
+
   }
