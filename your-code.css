@@ -42,7 +42,6 @@ img[alt="nateDog"]{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 180px);
-
     justify-items: center;
     align-items: center;
   }
@@ -61,11 +60,10 @@ img[alt="nateDog"]{
   .gamers img:hover{
       border: 3px black dotted;
   }
-  body{
-      
-  }
   .gamers p{
       border-radius: 10%;
       background-color: aquamarine;
       padding: 10px;
+      align-items: center;
+      margin-right: 20px;
   }
