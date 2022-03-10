@@ -45,30 +45,31 @@ img[alt="nateDog"]{
     justify-items: center;
     align-items: center;
   }
-  h1{
-      font-family: 'Luckiest Guy', 'VT323', monospace;
-      text-align: center;
-      font-size: xx-large;
-      color: aliceblue;
-      border: dashed white 4px;
-      background-color: black;
+h1{
+    font-family: 'Luckiest Guy', 'VT323', monospace;
+    text-align: left;
+    font-size: xx-large;
+    color: aliceblue;
+    border: dashed white 4px;
+    background-color: black;
+    margin-left: 20px;
+    padding-left: 8rem;
 
   }
-  .gamers img{
-      border-radius: 50%;
+.gamers img{
+  border-radius: 50%;
   }
-  .gamers img:hover{
-      border: 3px black dotted;
+.gamers img:hover{
+    border: 3px black dotted;
   }
-  .gamers p{
-      border-radius: 10%;
-      background-color: aquamarine;
-      padding: 10px;
-      align-items: center;
-      margin-right: 20px;
-  }
-  #topNav{
+.gamers p{
+    border-radius: 10%;
+    background-color: aquamarine;
+    padding: 10px;
+    align-items: center;
+    margin-right: 20px;
+}
+#topNav{
     background-color: black;
     align-items: center;
-
-  }
+}
